@@ -1,0 +1,47 @@
+{
+  "name": "raidencashcore-channel",
+  "version": "1.5.1",
+  "description": "Add payment channels support to bitcore/raidencashcore",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage"
+  },
+  "author": "BitPay <dev@bitpay.com>",
+  "contributors": [
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    }
+  ],
+  "keywords": [
+    "XRN",
+    "bitcore",
+    "btc",
+    "satoshi",
+    "payment channels",
+    "channel",
+    "smart contract",
+    "solaris-rig",
+    "raidencashcore"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/solaris-rig/raidencashcore-channel",
+  "dependencies": {
+    "raidencashcore-lib": "^1.8.2",
+    "inherits": "=2.0.1"
+  },
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "chai": "^2.3.0",
+    "gulp": "^4.0.0",
+    "nodejs-externs": "^0.10.0",
+    "raidencashcore-build": "^1.7.8",
+    "request": "^2.48.0",
+    "vinyl-transform": "^1.0.0"
+  }
+}
